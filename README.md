@@ -25,7 +25,7 @@ The form is named `lever-ai-inquiry` and includes Netlify form detection, requir
 After the first Netlify deployment:
 
 1. Submit one test inquiry and confirm it appears under **Forms** in Netlify.
-2. In the Netlify dashboard, add a form submission email notification for `jj@leversmb.com`.
+2. In the Netlify dashboard, add a form submission email notification for the appropriate business contact.
 3. Test the notification and reply workflow.
 4. Connect `leversmb.com` only after the production preview is approved.
 
