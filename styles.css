@@ -240,18 +240,6 @@ img {
   text-transform: uppercase;
 }
 
-.section-kicker span {
-  display: inline-grid;
-  place-items: center;
-  width: 31px;
-  height: 22px;
-  margin-right: 0.7rem;
-  border: 1px solid currentColor;
-  border-radius: 999px;
-  font-size: 0.65rem;
-  letter-spacing: 0.08em;
-}
-
 .section-kicker-light {
   color: var(--gold-light);
 }
@@ -563,13 +551,6 @@ img {
   stroke-width: 1.6;
 }
 
-.outcome-card-top span {
-  color: rgba(20, 37, 31, 0.42);
-  font-size: 0.68rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-}
-
 .outcome-card h3 {
   margin: 3.6rem 0 0.65rem;
   font-size: 1.25rem;
@@ -830,13 +811,6 @@ img {
   padding: 0 2rem 2rem 0;
 }
 
-.process-number {
-  color: var(--forest);
-  font-family: var(--serif);
-  font-size: 1rem;
-  font-style: italic;
-}
-
 .process-connector {
   position: relative;
   height: 90px;
@@ -1035,7 +1009,7 @@ img {
 
 .opportunity-list article {
   display: grid;
-  grid-template-columns: 42px 1fr auto;
+  grid-template-columns: 1fr auto;
   gap: 1.2rem;
   align-items: start;
   min-height: 165px;
@@ -1050,13 +1024,6 @@ img {
 
 .opportunity-list article:nth-child(even) {
   padding-left: 2.3rem;
-}
-
-.opportunity-list article > span {
-  color: var(--forest);
-  font-family: var(--serif);
-  font-size: 0.9rem;
-  font-style: italic;
 }
 
 .opportunity-list h3 {
@@ -2029,14 +1996,9 @@ summary:focus-visible {
     padding: 0 0 2.6rem;
   }
 
-  .process-number {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
   .process-connector {
     grid-column: 1;
-    grid-row: 2 / span 2;
+    grid-row: 1 / span 2;
     width: 30px;
     height: 100%;
     align-items: flex-start;
@@ -2064,11 +2026,11 @@ summary:focus-visible {
   }
 
   .process-grid h3 {
-    grid-row: 2;
+    grid-row: 1;
   }
 
   .process-grid p {
-    grid-row: 3;
+    grid-row: 2;
     margin-top: 0.75rem;
   }
 
@@ -2093,7 +2055,7 @@ summary:focus-visible {
   }
 
   .opportunity-list article {
-    grid-template-columns: 34px 1fr;
+    grid-template-columns: 1fr;
     min-height: 0;
   }
 
