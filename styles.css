@@ -920,7 +920,7 @@ img {
 
 .metrics {
   display: grid;
-  grid-template-columns: 0.65fr 1fr 1.35fr;
+  grid-template-columns: 0.8fr 1.2fr;
   border-top: 1px solid var(--line);
   border-left: 1px solid var(--line);
 }
@@ -2150,3 +2150,12 @@ summary:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Shorter path from proof to inquiry. */
+section[id] { scroll-margin-top: 6rem; }
+.experience-cta { margin-top: 1.5rem; }
+.opportunity-note { margin: 1.5rem 0 0; max-width: 720px; color: var(--ink-soft); line-height: 1.6; }
+.assessment-reassurance { margin-top: 1.5rem; color: var(--white); font-weight: 700; }
+.assessment-email { margin-top: 1.5rem; color: rgba(255, 253, 248, 0.78); line-height: 1.6; }
+.assessment-email a { color: var(--white); text-decoration: underline; text-underline-offset: 0.2em; }
+.field-hint { color: var(--ink-soft); font-size: 0.8rem; line-height: 1.5; }
